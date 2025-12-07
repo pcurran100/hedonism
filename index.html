@@ -83,14 +83,13 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         }
 
-        .header h1 {
-            font-family: 'Special Elite', 'Courier New', monospace;
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            color: #2c2416;
-            text-transform: uppercase;
-            text-align: center;
+        .header img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            max-height: 150px;
+            width: auto;
         }
 
         .content {
@@ -154,8 +153,12 @@
 
         /* Responsive design */
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.8rem;
+            .header {
+                padding: 15px 20px;
+            }
+
+            .header img {
+                max-height: 120px;
             }
 
             .content {
@@ -175,7 +178,7 @@
 </head>
 <body>
     <header class="header">
-        <h1>Lorem Ipsum</h1>
+        <img src="images/Gemini_Generated_Image_jewoq9jewoq9jewo.png" alt="Hedonism Weekly">
     </header>
 
     <main class="content">
